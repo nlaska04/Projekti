@@ -1,0 +1,456 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@media (max-width: 600px) {
+    body {
+        font-size: 14px;
+        margin: 10px;
+    }
+}
+.navbar {
+    background-color:rgb(5, 5, 5); /* Ngjyra e sfondit */
+    padding: 10px;
+}
+.navbar-brand{
+    font-family: 'Lora', serif;
+    font-weight: 500;
+    color: #efefef;
+    font-size: 80px;
+}
+.navbar ul {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}                                                   
+
+.navbar li {
+    text-align: center;
+}
+
+.navbar li a {
+    display: block;
+    color: rgb(146, 118, 118); /* Ngjyra e tekstit */
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 30px; /* Madhësia e shkronjave */
+}
+
+
+
+body {
+    font-size: 1em;
+    line-height: 1.5;
+    background-color: black;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    
+}
+ 
+footer {
+    height: 500px;
+    background-color: rgb(36, 33, 45);
+    margin: 20px;
+    padding: 20px;
+
+}
+.container-fluid p{
+    color: #fffbfb;
+    font-size: 30px;
+}
+
+/* Kontejneri kryesor */
+.container {
+     display: flex; /* Aktivizon Flexbox */
+     align-items: center;   
+     gap: 100px; /* Hapësirë mes fotos dhe tekstit */
+     padding: 20px; /* Hapësirë brenda kontejnerit */
+   
+}
+
+.img-fluid{
+    width: 1300px;
+    height:1000px ;
+    border-radius: 25%;
+    
+}
+
+
+
+.text p {
+    font-size: 40px; /* Madhesia e tekstit */
+    line-height: 1.6; /* Hapësira vertikale mes linjave */
+    color: #edc8c8d7; /* Ngjyra e tekstit */
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+
+
+.create {
+    display: flex;
+    gap: 20px; /* Hapesira mes fotove dhe tekstit */
+    text-align: center;
+    padding: 20px;
+}
+.create img {
+    width:auto ;
+    height:800px ;
+    align-items: center;
+}
+
+.text {
+    max-width: 800px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.text h1 {
+    font-size: 35px;
+    color: #eeee9e;
+    margin-bottom: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.text p {
+    font-size: 30px;
+    color: #f2e7e7;
+    line-height: 1.3;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+/* Karta bazë (pa efekte) */
+.aboutcard {
+    background-color: #0f0e0ee9;
+    border: 1px solid #ddd;
+    border-radius:15px ;
+    padding: 20px;
+    max-width: 1400px;
+    height: 800px;
+    margin: 50px auto;
+    cursor: pointer;
+}
+
+/* Teksti i kartës */
+.aboutcard h2 {
+    font-size: 40px;
+    margin-bottom: 10px;
+    color: #ada9a9;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.aboutcard p {
+    font-size: 35px;
+    color: #857e7e;
+    line-height: 1.6;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.container h1{ 
+    padding-right: 70px;
+    text-align: center;
+    font-size: 60px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #efdbab;
+}
+
+.grid-container {
+    display: grid;
+    gap: 20px; /* Hapësira ndërmjet kartave */
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Kartat përshtaten automatikisht */
+    width: 90%; /* Përshtatet me gjerësinë e ekranit */
+    max-width: 1200px; /* Limitohet në 1200px për desktop */
+    margin: 0 auto; /* Qendërzim horizontal */
+    padding: 20px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Kartat individuale */
+.card {
+    background: #a38772; /* Ngjyra e kartës */
+    border-radius: 50%;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    font-size: 18px;
+    font-weight: bold;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.card img {
+    width: 100%; /* Fotoja zë të gjithë gjerësinë e kartës */
+    height: 300px; /* Lartësia fikse për konsistencë */
+    object-fit: cover; /* Fotoja përshtatet pa u deformuar */
+    border-bottom: 2px solid #ccc;
+    border-radius: 50%;
+}
+
+
+
+.ourstory {
+    background-color:  #885A3A;
+    border: 1px solid #ddd;
+    border-radius:15px ;
+    padding: 20px;
+    max-width: 1200px;
+    height: 300px;
+    margin: 50px auto;
+    cursor: pointer;
+}
+
+/* Teksti i kartës */
+.ourstory h1 {
+    font-size: 40px;
+    margin-bottom: 10px;
+    color: #f0db97;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.ourstory p {
+    font-size: 18px;
+    color: #F4EEE3;
+    line-height: 1.6;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.OURJOURNEY {
+    background-color:  #885A3A;
+    border: 1px solid #ddd;
+    border-radius:15px ;
+    padding: 20px;
+    max-width: 1200px;
+    height: 200px;
+    margin: 50px auto;
+    cursor: pointer;
+}
+
+/* Teksti i kartës */
+.OURJOURNEY h2 {
+    font-size: 40px;
+    margin-bottom: 10px;
+    color: #f0db97;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.OURJOURNEY p {
+    font-size: 18px;
+    color: #F4EEE3;
+    line-height: 1.6;
+    font-family: 'Courier New', Courier, monospace;
+}
+.masterpiece {
+    background-color:  #C9B09A;
+    border: 1px solid #ddd;
+    border-radius:15px ;
+    padding: 20px;
+    max-width: 1200px;
+    height: 300px;
+    margin: 50px auto;
+    cursor: pointer;
+}
+
+/* Teksti i kartës */
+.masterpiece h2 {
+    font-size: 40px;
+    margin-bottom: 10px;
+    color: #f0db97;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.masterpiece p {
+    font-size: 18px;
+    color: #F4EEE3;
+    line-height: 1.6;
+    font-family: 'Courier New', Courier, monospace;
+}
+.JOIN {
+    background-color:  #C9B09A;
+    border: 1px solid #ddd;
+    border-radius:15px ;
+    padding: 20px;
+    max-width: 1200px;
+    height: 200px;
+    margin: 50px auto;
+    cursor: pointer;
+}
+
+/* Teksti i kartës */
+.JOIN h2 {
+    font-size: 40px;
+    margin-bottom: 10px;
+    color: #f0db97;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.JOIN p {
+    font-size: 18px;
+    color: #F4EEE3;
+    line-height: 1.6;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.workshop-container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #c59a6b;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+.workshop-title {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #202020;
+}
+.workshop-text {
+    font-size: 1.1rem;
+    color: #eae2e2;
+}
+.highlight {
+    color: #d4d690;
+    font-weight: bold;
+}
+
+
+
+.title {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #333;
+}
+.button {
+    background-color: #a07461;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1.1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+.button:hover {
+    background-color: #a5896f;
+}
+.form-container {
+    display: none; /* Forma është e fshehur fillimisht */
+    margin-top: 30px;
+    text-align: center;
+}
+.form-group {
+    margin-bottom: 15px;
+}
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #333;
+}
+input, textarea, button {
+    width: 50%;
+    padding: 10px;
+    font-size: 1rem;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+button {
+    background-color: #6c5555;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  
+}
+button:hover {
+    background-color: #c1d0e0;
+}
+
+
+
+.image-container {
+    position: relative; /* Bën të mundur pozicionimin e elementëve mbi foton */
+    width: 100%;
+    max-width: 600px; /* Kufizon madhësinë e fotos */
+    margin: 50px auto;
+}
+.image-container img {
+    width: 100%;
+    height: auto; /* Fotoja përshtatet me madhësinë e container-it */
+    border-radius: 8px;
+}
+.text-overlay {
+    position: absolute; /* Pozicionim relativ ndaj .image-container */
+    top: 50%; /* Teksti në qendër vertikalisht */
+    left: 50%; /* Teksti në qendër horizontalisht */
+    transform: translate(-50%, -50%); /* Qendërzim absolut */
+    color: white;
+    font-size: 1.8rem;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+    text-shadow: 2px 2px 8px rgba(96, 93, 93, 0.7); /* Hijë për tekstin */
+     text-align: center; 
+}
+
+
+/* contact form */
+.contactPage.Email {
+    color: rgb(252, 252, 252);
+}
+.contactPage.Firstname {
+    color: rgb(255, 255, 255);
+}
+.Lastname {
+    color: rgb(255, 255, 255);
+}
+.comment{
+    color:rgb(255, 255, 255) ;
+}
+.container mt-5 {
+    background-color: #a5896f;
+}
+
+.text.center-title {
+    margin: 20px;
+    text-align: center;
+  }
+  
+.small-text {
+    font-size: 200px; 
+    line-height: 1.5;
+  }
+
+
+.containeractivities {
+    max-width: 800px; 
+    margin: 0 auto;
+    padding: 20px; 
+    text-align: center; 
+  }
+  
+.center-title {
+    text-align: center;
+    margin-bottom: 30px; 
+    color: #efee99;
+  }
+  
+.image img {
+    display: block;
+    margin: 0 auto; /* Center the image */
+    width: auto;
+    height: 50%;
+  }
+  
+  
+.content .ul .li{
+    text-align:center; 
+    color: #e0d8d8;
+  }
+
+  

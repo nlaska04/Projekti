@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+{% extends 'base.html' %}
+{% load static %}
+{% block content %}
+
+    <div class="container">
+      <img
+        src="{% static 'images/blackorchid.jpeg' %}"
+        class="img-fluid"
+        alt="pershkrimi"
+      />
+      <div class="text">
+        <p>"Perfume is the art that makes memory speak."</p>
+        <p>— Francis Kurkdjian</p>
+      </div>
+    </div>
+    <hr />
+    <hr />
+    <br />
+    <br />
+    <!--Fund foto-->
+
+    <!--Nis signature-->
+    <div class="create">
+      <img
+        src="{% static 'images/Wedding Photo.jpeg' %}"
+        class="rounded float-start"
+        alt="..."
+      />
+      
+      <div class="text">
+        <h1 class="center-title">Create Your Signature</h1>
+        <p class="small-text">
+          "Unique fragrances are an expression of individuality, capturing the
+          essence of personal style and emotion. They combine rare ingredients,
+          creating scents that are both captivating and memorable. Each
+          fragrance tells a story, evoking specific memories or transporting you
+          to another place and time. These distinctive scents are not just
+          perfumes; they are works of art that leave a lasting impression.
+          Embracing unique fragrances allows you to stand out, creating a
+          signature scent that is truly yours."
+        </p>
+      </div>
+      <img
+        src="{% static 'images/chanel.jpeg' %}"
+        class="rounded float-end"
+        alt="..."
+      />
+    </div>
+    <!--Fund signature-->
+    <br />
+
+    <!-- Nis grid-->
+    <div class="container my-5 pt-5">
+      <h1>TOP NOTES</h1>
+      <div class="row">
+        <!-- sm, md, lg, xl, xxl -->
+        <div class="col-12 col-md-6 col-lg-4 mb-5">
+          <div class="card">
+            <img
+            src="{% static 'images/cinnamon.jpeg' %}" class="card-img-top" alt="" />
+            <div class="card-body">
+              <h5 class="card-title"><strong>CINNAMON</strong></h5>
+              <p class="card-text"></p>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-4 mb-5">
+          <div class="card">
+            <img
+              src="{% static 'images/oud.jpeg' %}"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title"><strong>OUD</strong></h5>
+              <p class="card-text"></p>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-4 mb-5">
+          <div class="card">
+            <img
+              src="{% static 'images/Best Uses of Patchouli Oil.jpeg' %}"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title"><strong>PATCHOULI</strong></h5>
+              <p class="card-text"></p>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-4 mb-5">
+          <div class="card">
+            <img
+              src="{% static 'images/vanilla.jpeg' %}"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title"><strong>VANILLA</strong></h5>
+              <p class="card-text"></p>
+            </div>
+          </div>
+        </div>
+        
+        <div class="col-12 col-md-6 col-lg-4 mb-5">
+          <div class="card">
+            <img
+              src="{% static 'images/Skincare Benefits Lavender Essential Oil.jpeg' %}"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title"><strong>LAVANDER</strong></h5>
+              <p class="card-text"></p>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-4 mb-5">
+          <div class="card">
+            <img
+              src="{% static 'images/Cosmetic photography, natural cosmetic.jpeg' %}"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title"><strong>ORANGE</strong></h5>
+              <p class="card-text"></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- fund grid -->
+
+    <!--Nis About us-->
+    <div class="container">
+      <div class="aboutcard" id="about-card">
+        <h2>About Us</h2>
+        <img
+          src="{% static 'images/img1.jpg' %}"
+          alt="pershkrim"
+          width="500px"
+          height="300px"
+        />
+        <p>
+          "ScentZone Perfume Company is a globally recognized name in the world
+          of luxury fragrances, dedicated to crafting timeless scents that
+          resonate with sophistication, elegance, and individuality. Founded in
+          1995 by visionary perfumer Elena Marquise, ScentZone began as a small
+          atelier in Paris, where artistry and science merged to create
+          unforgettable olfactory experiences."
+        </p>
+      </div>
+    </div>
+    <!--Fund About us-->
+  </body>
+</html>
+{% endblock %}
